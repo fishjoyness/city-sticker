@@ -1,0 +1,22 @@
+{
+  "city": "Chengdu",
+  "cityChinese": "成都",
+  "version": "v1",
+  "landmarks": [
+    {"nameZh":"成都大熊猫繁育研究基地","slug":"chengdu-panda-base","source":"new"},
+    {"nameZh":"武侯祠","slug":"wuhou-shrine","source":"new"},
+    {"nameZh":"锦里","slug":"jinli-street","source":"new"},
+    {"nameZh":"宽窄巷子","slug":"kuanzhai-alley","source":"new"},
+    {"nameZh":"杜甫草堂","slug":"du-fu-thatched-cottage","source":"new"},
+    {"nameZh":"文殊院","slug":"wenshu-monastery","source":"new"},
+    {"nameZh":"青羊宫","slug":"qingyang-palace","source":"new"},
+    {"nameZh":"金沙遗址博物馆","slug":"jinsha-site-museum","source":"new"},
+    {"nameZh":"安顺廊桥","slug":"anshun-bridge","source":"new"},
+    {"nameZh":"东郊记忆","slug":"eastern-suburb-memory","source":"new"},
+    {"nameZh":"春熙路","slug":"chunxi-road","source":"new"},
+    {"nameZh":"成都人民公园","slug":"peoples-park-chengdu","source":"new"},
+    {"nameZh":"望江楼公园","slug":"wangjiang-tower-park","source":"new"},
+    {"nameZh":"都江堰","slug":"dujiangyan","source":"new"},
+    {"nameZh":"青城山","slug":"qingcheng-mountain","source":"new"}
+  ]
+}
