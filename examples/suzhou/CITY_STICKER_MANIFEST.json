@@ -1,0 +1,22 @@
+{
+  "city": "Suzhou",
+  "cityChinese": "苏州",
+  "version": "v1",
+  "landmarks": [
+    {"nameZh":"拙政园","slug":"humble-administrators-garden","source":"new"},
+    {"nameZh":"留园","slug":"lingering-garden","source":"new"},
+    {"nameZh":"狮子林","slug":"lion-grove-garden","source":"new"},
+    {"nameZh":"虎丘","slug":"tiger-hill","source":"new"},
+    {"nameZh":"寒山寺","slug":"hanshan-temple","source":"new"},
+    {"nameZh":"苏州博物馆","slug":"suzhou-museum","source":"new"},
+    {"nameZh":"平江路","slug":"pingjiang-road","source":"new"},
+    {"nameZh":"山塘街","slug":"shantang-street","source":"new"},
+    {"nameZh":"盘门","slug":"panmen-gate","source":"new"},
+    {"nameZh":"网师园","slug":"master-of-nets-garden","source":"new"},
+    {"nameZh":"沧浪亭","slug":"canglang-pavilion","source":"new"},
+    {"nameZh":"金鸡湖","slug":"jinji-lake","source":"new"},
+    {"nameZh":"东方之门","slug":"gate-of-the-orient","source":"new"},
+    {"nameZh":"周庄古镇","slug":"zhouzhuang","source":"new"},
+    {"nameZh":"同里古镇","slug":"tongli","source":"new"}
+  ]
+}

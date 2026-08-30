@@ -41,7 +41,8 @@ def build(manifest_path: Path, output: Path, columns: int) -> None:
         x = left + column * (card + gap)
         y = top + row * (card + gap)
         draw.rounded_rectangle((x, y, x + card, y + card), radius=26, fill="#FFFEFB", outline="#D9D1C7", width=2)
-        image_path = manifest_path.parent / landmark["transparent"]
+        image_name = landmark.get("transparent", f"{landmark['slug']}_transparent.png")
+        image_path = manifest_path.parent / image_name
         sticker = Image.open(image_path).convert("RGBA")
         sticker.thumbnail((card - 24, card - 24), Image.Resampling.LANCZOS)
         canvas.paste(sticker, (x + (card - sticker.width) // 2, y + (card - sticker.height) // 2), sticker)
