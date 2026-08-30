@@ -1,0 +1,22 @@
+{
+  "city":"guangzhou",
+  "cityChinese":"广州",
+  "version":"1.0",
+  "landmarks":[
+    {"nameZh":"广州塔","slug":"canton-tower","source":"official-research"},
+    {"nameZh":"陈家祠","slug":"chen-clan-ancestral-hall","source":"official-research"},
+    {"nameZh":"沙面","slug":"shamian-island","source":"official-research"},
+    {"nameZh":"石室圣心大教堂","slug":"sacred-heart-cathedral","source":"official-research"},
+    {"nameZh":"越秀公园五羊雕像","slug":"five-rams-statue","source":"official-research"},
+    {"nameZh":"镇海楼","slug":"zhenhai-tower","source":"official-research"},
+    {"nameZh":"白云山","slug":"baiyun-mountain","source":"official-research"},
+    {"nameZh":"广东省博物馆","slug":"guangdong-museum","source":"official-research"},
+    {"nameZh":"永庆坊","slug":"yongqingfang","source":"official-research"},
+    {"nameZh":"大佛寺","slug":"dafo-temple","source":"official-research"},
+    {"nameZh":"南越王博物院","slug":"nanyue-king-museum","source":"official-research"},
+    {"nameZh":"海心桥","slug":"haixin-bridge","source":"official-research"},
+    {"nameZh":"花城广场","slug":"huacheng-square","source":"official-research"},
+    {"nameZh":"黄埔军校旧址","slug":"whampoa-military-academy","source":"official-research"},
+    {"nameZh":"广州长隆旅游度假区","slug":"guangzhou-chimelong-resort","source":"official-research"}
+  ]
+}
