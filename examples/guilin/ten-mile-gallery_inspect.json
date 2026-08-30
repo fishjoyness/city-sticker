@@ -1,0 +1,89 @@
+{
+  "input": "D:\\小程序\\city-sticker\\examples\\guilin\\ten-mile-gallery_transparent.png",
+  "status": "PASS",
+  "checks": {
+    "format": {
+      "pass": true,
+      "actual": "PNG"
+    },
+    "canvas": {
+      "pass": true,
+      "actual": [
+        1024,
+        1024
+      ],
+      "expected": [
+        1024,
+        1024
+      ]
+    },
+    "alpha_channel": {
+      "pass": true,
+      "actual": [
+        "R",
+        "G",
+        "B",
+        "A"
+      ]
+    },
+    "visible_pixels": {
+      "pass": true,
+      "actual": [
+        200,
+        105,
+        824,
+        891
+      ]
+    },
+    "safe_margin": {
+      "pass": true,
+      "actual": {
+        "left": 0.1953125,
+        "top": 0.1025390625,
+        "right": 0.1953125,
+        "bottom": 0.1298828125
+      },
+      "minimum": 0.1
+    },
+    "footprint": {
+      "pass": true,
+      "actual": {
+        "width": 0.609375,
+        "height": 0.767578125
+      },
+      "maximum": 0.8
+    },
+    "transparent_background": {
+      "pass": true,
+      "actual_alpha_range": [
+        0,
+        255
+      ]
+    }
+  },
+  "visibleBounds": [
+    200,
+    105,
+    824,
+    891
+  ],
+  "margins": {
+    "left": 0.1953125,
+    "top": 0.1025390625,
+    "right": 0.1953125,
+    "bottom": 0.1298828125
+  },
+  "footprint": {
+    "width": 0.609375,
+    "height": 0.767578125
+  },
+  "semanticChecksRequired": [
+    "landmark fidelity",
+    "style fidelity",
+    "64/96/128 px recognizability",
+    "accurate Chinese landmark nameplate below the subject",
+    "nameplate does not replace landmark visual identity",
+    "absence of personification"
+  ],
+  "thumbnail": "D:\\小程序\\city-sticker\\examples\\guilin\\ten-mile-gallery_marker-128.png"
+}

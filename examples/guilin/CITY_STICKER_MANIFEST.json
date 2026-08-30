@@ -1,0 +1,22 @@
+{
+  "city": "guilin",
+  "cityChinese": "桂林",
+  "version": "1.0",
+  "landmarks": [
+    {"nameZh":"象鼻山","slug":"elephant-trunk-hill","source":"official-research"},
+    {"nameZh":"漓江","slug":"li-river","source":"official-research"},
+    {"nameZh":"日月双塔","slug":"sun-moon-pagodas","source":"official-research"},
+    {"nameZh":"两江四湖","slug":"two-rivers-four-lakes","source":"official-research"},
+    {"nameZh":"芦笛岩","slug":"reed-flute-cave","source":"official-research"},
+    {"nameZh":"独秀峰","slug":"duxiu-peak","source":"official-research"},
+    {"nameZh":"七星景区","slug":"seven-star-scenic-area","source":"official-research"},
+    {"nameZh":"伏波山","slug":"fubo-hill","source":"official-research"},
+    {"nameZh":"叠彩山","slug":"folded-brocade-hill","source":"official-research"},
+    {"nameZh":"龙脊梯田","slug":"longji-rice-terraces","source":"official-research"},
+    {"nameZh":"遇龙河","slug":"yulong-river","source":"official-research"},
+    {"nameZh":"阳朔西街","slug":"yangshuo-west-street","source":"official-research"},
+    {"nameZh":"十里画廊","slug":"ten-mile-gallery","source":"official-research"},
+    {"nameZh":"兴坪古镇","slug":"xingping-ancient-town","source":"official-research"},
+    {"nameZh":"银子岩","slug":"silver-cave","source":"official-research"}
+  ]
+}
