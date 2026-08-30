@@ -1,0 +1,124 @@
+{
+  "skill": "city-sticker",
+  "invocation": {
+    "allow_implicit": true
+  },
+  "cases": {
+    "normal": [
+      {
+        "id": "normal-01",
+        "prompt": "用 city-sticker 研究南京鸡鸣寺，先整理识别特征和 Prompt，不生成图。",
+        "expected": {
+          "trigger": true,
+          "phase": "Phase 1 then Phase 2",
+          "must_do": ["research real landmark sources", "extract three to five evidenced features", "return a research-only prompt package"],
+          "must_not_do": ["generate an image", "update a production manifest"]
+        }
+      },
+      {
+        "id": "normal-02",
+        "prompt": "我给了两张人物画风参考，请只提炼线条、色块和留白，给南京博物院做 STYLE TEST。",
+        "expected": {
+          "trigger": true,
+          "phase": "Phase 1 through Phase 7",
+          "must_do": ["separate landmark and style reference roles", "exclude human anatomy rules", "label output STYLE TEST"],
+          "must_not_do": ["personify the building", "declare the style final"]
+        }
+      },
+      {
+        "id": "normal-03",
+        "prompt": "沿用已批准 style-v1，分别为西安钟楼和大雁塔准备一致的候选图。",
+        "expected": {
+          "trigger": true,
+          "phase": "Phase 1 through Phase 7",
+          "must_do": ["freeze the same ordered style references", "change only the landmark feature lock", "review the set at marker size"],
+          "must_not_do": ["silently change styleVersion", "use one combined generation call"]
+        }
+      },
+      {
+        "id": "normal-04",
+        "prompt": "检查这张东方明珠景点 PNG 的透明背景、安全边距和 64px 识别度。",
+        "expected": {
+          "trigger": true,
+          "phase": "Phase 6",
+          "must_do": ["run deterministic PNG inspection", "perform semantic thumbnail review", "record PASS or FAIL evidence"],
+          "must_not_do": ["claim the script judges landmark fidelity", "promote a failing asset"]
+        }
+      },
+      {
+        "id": "normal-05",
+        "prompt": "把我确认过的两张景点贴纸固化成 STYLE_REFERENCE，并为下一座城市建立同样的出图流程。",
+        "expected": {
+          "trigger": true,
+          "phase": "Phase 3",
+          "must_do": ["create a versioned style lock", "record references in fixed order", "preserve the previous version"],
+          "must_not_do": ["start nationwide generation", "overwrite prior anchors"]
+        }
+      }
+    ],
+    "edge": [
+      {
+        "id": "edge-01",
+        "prompt": "给我画一个鼓楼贴纸。",
+        "expected": {
+          "trigger": true,
+          "phase": "Phase 1",
+          "must_do": ["ask which city and exact landmark"],
+          "must_not_do": ["guess the place", "generate from memory"]
+        }
+      },
+      {
+        "id": "edge-02",
+        "prompt": "风格锚点还没定，白边和阴影你自己决定，直接做成正式资产。",
+        "expected": {
+          "trigger": true,
+          "phase": "Phase 1",
+          "must_do": ["refuse production status", "offer a controlled STYLE TEST or research-only package"],
+          "must_not_do": ["choose the final style", "update production files"]
+        }
+      },
+      {
+        "id": "edge-03",
+        "prompt": "官网照片和旧照片里的塔顶不一样，请直接挑你觉得好看的版本。",
+        "expected": {
+          "trigger": true,
+          "phase": "Phase 2",
+          "must_do": ["surface the evidence conflict", "ask which era or current appearance to use"],
+          "must_not_do": ["blend conflicting structures", "hide uncertainty"]
+        }
+      }
+    ],
+    "non_trigger": [
+      {
+        "id": "non-trigger-01",
+        "prompt": "把我画成可爱的 Q 版旅行头像。",
+        "expected": {
+          "trigger": false,
+          "phase": "none",
+          "must_do": ["route to a character illustration workflow"],
+          "must_not_do": ["create landmark research files"]
+        }
+      },
+      {
+        "id": "non-trigger-02",
+        "prompt": "把景点贴纸 Marker 接进微信小程序地图。",
+        "expected": {
+          "trigger": false,
+          "phase": "none",
+          "must_do": ["handle as a coding task"],
+          "must_not_do": ["generate sticker art"]
+        }
+      },
+      {
+        "id": "non-trigger-03",
+        "prompt": "帮我设计一张南京旅游宣传海报。",
+        "expected": {
+          "trigger": false,
+          "phase": "none",
+          "must_do": ["use a poster or general image workflow"],
+          "must_not_do": ["apply the map-marker asset contract"]
+        }
+      }
+    ]
+  }
+}
