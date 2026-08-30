@@ -1,0 +1,20 @@
+{
+  "city":"Chongqing","cityChinese":"重庆","version":"v1",
+  "landmarks":[
+    {"nameZh":"洪崖洞","slug":"hongya-cave","source":"new"},
+    {"nameZh":"解放碑","slug":"jiefangbei","source":"new"},
+    {"nameZh":"长江索道","slug":"yangtze-river-cableway","source":"new"},
+    {"nameZh":"李子坝轻轨穿楼","slug":"liziba-monorail","source":"new"},
+    {"nameZh":"朝天门","slug":"chaotianmen","source":"new"},
+    {"nameZh":"重庆来福士","slug":"raffles-city-chongqing","source":"new"},
+    {"nameZh":"重庆人民大礼堂","slug":"great-hall-of-the-people-chongqing","source":"new"},
+    {"nameZh":"重庆中国三峡博物馆","slug":"three-gorges-museum","source":"new"},
+    {"nameZh":"磁器口古镇","slug":"ciqikou","source":"new"},
+    {"nameZh":"山城步道","slug":"mountain-city-trail","source":"new"},
+    {"nameZh":"白象居","slug":"baixiangju","source":"new"},
+    {"nameZh":"鹅岭二厂","slug":"eling-testbed-2","source":"new"},
+    {"nameZh":"南山一棵树","slug":"nanshan-one-tree","source":"new"},
+    {"nameZh":"武隆天生三桥","slug":"wulong-three-natural-bridges","source":"new"},
+    {"nameZh":"大足石刻","slug":"dazu-rock-carvings","source":"new"}
+  ]
+}
