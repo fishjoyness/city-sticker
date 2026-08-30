@@ -1,0 +1,4 @@
+interface:
+  display_name: "城市景点贴纸生成"
+  short_description: "Research landmarks and create consistent sticker drafts"
+  default_prompt: "Use $city-sticker to research a real landmark and prepare one STYLE TEST sticker candidate for review."
