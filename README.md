@@ -73,6 +73,32 @@ STEP 06｜检查 Alpha / Safe Margin / 128·96·64 px
 
 中山陵的来源与识别锚点记录在 [Research Manifest](examples/nanjing/zhongshan-mausoleum-research.md) 中。外部照片只用于研究，不作为公开成果打包进仓库。
 
+## 🏯 北京十五景
+
+北京批次覆盖古建、山水、长城、城市公共空间与现代建筑。每张正式资产都包含透明 PNG、白底预览、128px Marker 和检查报告。
+
+| 故宫博物院 | 天坛 | 颐和园 |
+|---|---|---|
+| ![故宫博物院](examples/beijing/forbidden-city_preview.png) | ![天坛](examples/beijing/temple-of-heaven_preview.png) | ![颐和园](examples/beijing/summer-palace_preview.png) |
+
+| 八达岭长城 | 慕田峪长城 | 天安门 |
+|---|---|---|
+| ![八达岭长城](examples/beijing/badaling-great-wall_preview.png) | ![慕田峪长城](examples/beijing/mutianyu-great-wall_preview.png) | ![天安门](examples/beijing/tiananmen-gate_preview.png) |
+
+| 天安门广场 | 北海公园 | 景山公园 |
+|---|---|---|
+| ![天安门广场](examples/beijing/tiananmen-square_preview.png) | ![北海公园](examples/beijing/beihai-park_preview.png) | ![景山公园](examples/beijing/jingshan-park_preview.png) |
+
+| 雍和宫 | 恭王府 | 中国国家博物馆 |
+|---|---|---|
+| ![雍和宫](examples/beijing/yonghe-temple_preview.png) | ![恭王府](examples/beijing/prince-gongs-mansion_preview.png) | ![中国国家博物馆](examples/beijing/national-museum-of-china_preview.png) |
+
+| 鸟巢 | 水立方 | 什刹海 |
+|---|---|---|
+| ![鸟巢](examples/beijing/birds-nest_preview.png) | ![水立方](examples/beijing/water-cube_preview.png) | ![什刹海](examples/beijing/shichahai_preview.png) |
+
+完整研究依据见 [北京 Landmark Research](examples/beijing/LANDMARK_RESEARCH.md)。每个景点目录同时提供对应的透明 PNG、Marker 和 QA JSON。
+
 ## ✒️ 设计标准
 
 - 先研究真实地标，再生成图像。
@@ -157,6 +183,7 @@ city-sticker/
 ├─ scripts/
 ├─ evals/
 └─ examples/nanjing/
+└─ examples/beijing/
 ```
 
 ## Related Skill
