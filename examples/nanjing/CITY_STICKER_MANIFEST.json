@@ -1,0 +1,23 @@
+{
+  "city": "nanjing",
+  "cityChinese": "南京",
+  "styleVersion": "pen-travel-v0.1",
+  "status": "ASSET LIBRARY / REVIEW",
+  "landmarks": [
+    {"name": "南京博物院", "slug": "nanjing-museum", "transparent": "nanjing-museum_transparent.png", "source": "reused"},
+    {"name": "中山陵", "slug": "zhongshan-mausoleum", "transparent": "zhongshan-mausoleum_transparent.png", "source": "reused"},
+    {"name": "明孝陵", "slug": "ming-xiaoling", "transparent": "ming-xiaoling_transparent.png", "source": "new"},
+    {"name": "鸡鸣寺", "slug": "jiming-temple", "transparent": "jiming-temple_transparent.png", "source": "reused"},
+    {"name": "玄武湖", "slug": "xuanwu-lake", "transparent": "xuanwu-lake_transparent.png", "source": "reused"},
+    {"name": "南京总统府", "slug": "presidential-palace", "transparent": "presidential-palace_transparent.png", "source": "new"},
+    {"name": "夫子庙", "slug": "fuzimiao", "transparent": "fuzimiao_transparent.png", "source": "new"},
+    {"name": "秦淮河", "slug": "qinhuai-river", "transparent": "qinhuai-river_transparent.png", "source": "new"},
+    {"name": "老门东", "slug": "laomendong", "transparent": "laomendong_transparent.png", "source": "new"},
+    {"name": "牛首山", "slug": "niushoushan", "transparent": "niushoushan_transparent.png", "source": "new"},
+    {"name": "美龄宫", "slug": "meiling-palace", "transparent": "meiling-palace_transparent.png", "source": "new"},
+    {"name": "阅江楼", "slug": "yuejiang-tower", "transparent": "yuejiang-tower_transparent.png", "source": "new-repaired"},
+    {"name": "中华门城堡", "slug": "zhonghua-gate-castle", "transparent": "zhonghua-gate-castle_transparent.png", "source": "new"},
+    {"name": "朝天宫", "slug": "chaotian-palace", "transparent": "chaotian-palace_transparent.png", "source": "new"},
+    {"name": "南京长江大桥", "slug": "nanjing-yangtze-river-bridge", "transparent": "nanjing-yangtze-river-bridge_transparent.png", "source": "new"}
+  ]
+}
