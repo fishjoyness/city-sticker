@@ -1,0 +1,22 @@
+{
+  "city":"wuhan",
+  "cityChinese":"武汉",
+  "version":"1.0",
+  "landmarks":[
+    {"nameZh":"黄鹤楼","slug":"yellow-crane-tower","source":"official-research"},
+    {"nameZh":"武汉长江大桥","slug":"wuhan-yangtze-river-bridge","source":"official-research"},
+    {"nameZh":"东湖","slug":"east-lake","source":"official-research"},
+    {"nameZh":"湖北省博物馆","slug":"hubei-provincial-museum","source":"official-research"},
+    {"nameZh":"武汉大学老建筑","slug":"wuhan-university-old-buildings","source":"official-research"},
+    {"nameZh":"古德寺","slug":"gude-temple","source":"official-research"},
+    {"nameZh":"晴川阁","slug":"qingchuan-pavilion","source":"official-research"},
+    {"nameZh":"归元寺","slug":"guiyuan-temple","source":"official-research"},
+    {"nameZh":"江汉关","slug":"jianghan-customs-house","source":"official-research"},
+    {"nameZh":"汉口江滩","slug":"hankou-riverside","source":"official-research"},
+    {"nameZh":"辛亥革命博物院红楼","slug":"xinhai-revolution-museum-red-building","source":"official-research"},
+    {"nameZh":"古琴台","slug":"guqin-terrace","source":"official-research"},
+    {"nameZh":"东湖磨山楚天台","slug":"chutian-tower","source":"official-research"},
+    {"nameZh":"武汉美术馆琴台馆","slug":"wuhan-art-museum-qintai","source":"official-research"},
+    {"nameZh":"武汉园博园","slug":"wuhan-garden-expo-park","source":"official-research"}
+  ]
+}
