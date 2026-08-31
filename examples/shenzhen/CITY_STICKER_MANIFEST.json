@@ -1,0 +1,17 @@
+{"city":"shenzhen","cityChinese":"深圳","version":"1.0","landmarks":[
+{"nameZh":"平安金融中心","slug":"ping-an-finance-centre","source":"official-research"},
+{"nameZh":"深圳市民中心","slug":"shenzhen-civic-center","source":"official-research"},
+{"nameZh":"世界之窗","slug":"window-of-the-world","source":"official-research"},
+{"nameZh":"欢乐港湾摩天轮","slug":"oh-bay-ferris-wheel","source":"official-research"},
+{"nameZh":"深圳湾公园","slug":"shenzhen-bay-park","source":"official-research"},
+{"nameZh":"大梅沙海滨公园","slug":"dameisha-beach-park","source":"official-research"},
+{"nameZh":"大鹏所城","slug":"dapeng-fortress","source":"official-research"},
+{"nameZh":"南头古城","slug":"nantou-ancient-city","source":"official-research"},
+{"nameZh":"华侨城创意文化园","slug":"oct-loft","source":"official-research"},
+{"nameZh":"仙湖植物园","slug":"fairy-lake-botanical-garden","source":"official-research"},
+{"nameZh":"弘法寺","slug":"hongfa-temple","source":"official-research"},
+{"nameZh":"海上世界","slug":"sea-world","source":"official-research"},
+{"nameZh":"深圳当代艺术与城市规划馆","slug":"mocape","source":"official-research"},
+{"nameZh":"盐田海滨栈道","slug":"yantian-coastal-boardwalk","source":"official-research"},
+{"nameZh":"杨梅坑","slug":"yangmeikeng","source":"official-research"}
+]}
