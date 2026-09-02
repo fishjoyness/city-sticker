@@ -4,11 +4,11 @@
 
 `city-sticker` 不只把景点照片卡通化，也不会让图片模型凭印象画一个差不多的建筑。它先研究真实地标，找出真正决定辨识度的轮廓、结构和空间关系，再把这些特征放进稳定的手绘视觉语言。
 
-![Nanjing Landmark Sticker Showcase](examples/nanjing/nanjing-sticker-showcase.png)
+![Beijing Landmark Sticker Showcase](examples/beijing/beijing-landmark-sticker-showcase.png)
 
-当前展示：**南京博物院 · 鸡鸣寺 · 玄武湖 · 中山陵**
+当前展示：**北京景点贴纸合集**
 
-同一套线条、白边、色彩和中文名牌；四个地方既要看起来属于同一张地图，也要分别一眼能认出来。
+故宫、天坛、颐和园、长城，以及北京的公园、博物馆和现代建筑，统一采用同一套钢笔线条、克制平涂、白色贴纸边界、轻量阴影与中文名牌；每张既属于同一张旅行地图，也能独立辨认。
 
 ---
 
@@ -59,7 +59,7 @@ STEP 06｜检查 Alpha / Safe Margin / 128·96·64 px
 
 详细研究方法、Prompt 结构和验收条件都在 [SKILL.md](SKILL.md) 与 [references/](references/) 中，README 只保留使用前最需要了解的部分。
 
-## 🎨 南京四景测试
+## 🎨 南京四景补充示例
 
 | 南京博物院 | 鸡鸣寺 |
 |---|---|
